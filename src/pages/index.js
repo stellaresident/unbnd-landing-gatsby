@@ -119,15 +119,14 @@ const IndexPage = () => {
   return (
     <main style={pageStyles}>
       <h1 style={headingStyles}>
-        Congratulations
+        Hi, we're unbound.
         <br />
         <span style={headingAccentStyles}>
-          — you just made a Gatsby site! 🎉🎉🎉
+          — and we're making social media the way it should be and cool. 🔥🦅
         </span>
       </h1>
       <p style={paragraphStyles}>
-        Edit <code style={codeStyles}>src/pages/index.js</code> to see this page
-        update in real-time. 😎
+        We're <code style={codeStyles}>making our 1st beta soon</code> , so don't miss it!
       </p>
       <ul style={listStyles}>
         <li style={docLinkStyle}>
