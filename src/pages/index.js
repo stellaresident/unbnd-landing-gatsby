@@ -56,9 +56,7 @@ const descriptionStyle = {
 };
 
 const docLink = {
-  text: 'Documentation',
-  url: 'https://www.gatsbyjs.com/docs/',
-  color: '#8954A8',
+  text: 'Links and stuff',
 };
 
 const badgeStyle = {
@@ -79,38 +77,38 @@ const badgeStyle = {
 
 const links = [
   {
-    text: 'Tutorial',
-    url: 'https://www.gatsbyjs.com/docs/tutorial/',
+    text: 'UnbndR',
+    url: 'https://www.r.unbnd.net/',
     description:
-      "A great place to get started if you're new to web development. Designed to guide you through setting up your first Gatsby site.",
-    color: '#E95800',
+      "Ah yes, the unbound reserve. the big reserve of usernames. oh, you also want one? sure, cement yourself over here.",
+    color: '#ec7063',
   },
   {
-    text: 'How to Guides',
-    url: 'https://www.gatsbyjs.com/docs/how-to/',
+    text: 'The app, ofc',
+    url: 'https://www.app.unbnd.net/',
     description:
-      "Practical step-by-step guides to help you achieve a specific goal. Most useful when you're trying to get something done.",
-    color: '#1099A8',
+      "And over here, we have exhibit 1. The app. Currently points you to errors but who cares? It doesn't even exist rn.",
+    color: '#3498db',
   },
   {
-    text: 'Reference Guides',
-    url: 'https://www.gatsbyjs.com/docs/reference/',
+    text: 'The beta app',
+    url: 'https://www.beta.app.unbnd.net/',
     description:
-      "Nitty-gritty technical descriptions of how Gatsby works. Most useful when you need detailed information about Gatsby's APIs.",
-    color: '#BC027F',
+      "soon people, soon.",
+    color: '#f4d03f',
   },
   {
-    text: 'Conceptual Guides',
-    url: 'https://www.gatsbyjs.com/docs/conceptual/',
+    text: 'Our twitter',
+    url: 'https://www.x.com/useunbnd',
     description:
-      'Big-picture explanations of higher-level Gatsby concepts. Most useful for building understanding of a particular topic.',
+      'no, we won't stop calling it twitter.',
     color: '#0D96F2',
   },
   {
-    text: 'Plugin Library',
-    url: 'https://www.gatsbyjs.com/plugins',
+    text: 'Status page',
+    url: 'https://www.status.unbnd.net',
     description:
-      'Add functionality and customize your Gatsby site or app with thousands of plugins built by our amazing developer community.',
+      'Uh-oh! Is it really down?',
     color: '#8EB814',
   },
 ];
@@ -122,7 +120,7 @@ const IndexPage = () => {
         Hi, we're unbound.
         <br />
         <span style={headingAccentStyles}>
-          — and we're making social media the way it should be and cool. 🔥🦅
+          — and we're making social media the way it should be. 🔥🦅
         </span>
       </h1>
       <p style={paragraphStyles}>
@@ -166,4 +164,4 @@ const IndexPage = () => {
 
 export default IndexPage;
 
-export const Head = () => <title>Home Page</title>;
+export const Head = () => <title>Unbound!</title>;
